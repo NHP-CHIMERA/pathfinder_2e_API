@@ -1,0 +1,27 @@
+[
+  {
+    "heritageName": "versatile human",
+    "heritageDescription": "Humanity's versatility and ambition have fueled its ascendance to be the most common ancestry in most nations throughout the world. Select a general feat of your choice for which you meet the prerequisites (as with your ancestry feat, you can select this general feat at any point during character creation).",
+    "ancestry": "Human"
+  },
+  {
+    "heritageName": "deep rat",
+    "heritageDescription": "Your ancestors lived deeper underground than other ratfolk, granting you the ability to see in the dark. You gain darkvision.",
+    "ancestry": "Ratfolk"
+  },
+  {
+    "heritageName": "cavern elf",
+    "heritageDescription": "You were born or spent many years in underground tunnels or caverns where light is scarce. You gain darkvision.",
+    "ancestry": "Elf"
+  },
+  {
+    "heritageName": "nine lives catfolk",
+    "heritageDescription": "Your family has always seems to bounce back from disaster, not through physical hardiness or specialized skill, but from sheer luck. Other catfolk whisper that you have nine lives. While you’re dying, you don’t add your dying value to the DC of your recovery checks (this means the DC is typically 10). In addition, you gain the Diehard general feat.",
+    "ancestry": "Catfolk"
+  },
+  {
+    "heritageName": "roaming minotaur",
+    "heritageDescription": "Your hooves are broad and powerful, perfect for clearing away rubble as you step. You become trained in Survival (or another skill if you were already trained in Survival) and gain the Terrain Expertise skill feat. You ignore difficult terrain caused by natural uneven ground while in the terrain chosen for your Terrain Expertise feat.",
+    "ancestry": "Minotaur"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "traitName": "common"
+  },
+  {
+    "traitName": "uncommon"
+  },
+  {
+    "traitName": "rare"
+  },
+  {
+    "traitName": "humanoid"
+  },
+  {
+    "traitName": "beastkin"
+  }
+]

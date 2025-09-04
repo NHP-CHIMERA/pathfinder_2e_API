@@ -1,0 +1,114 @@
+[
+  {
+    "ancestryName": "Human",
+    "ancestryDescription": "Humans are diverse and adaptable people with wide potential and deep ambitions.",
+    "ancestryHitPoints": 8,
+    "ancestrySize": "medium",
+    "ancestrySpeed": 25,
+    "freeAttributeBoosts": 2,
+    "languages": ["standard"],
+    "features": [],
+    "abilities": [],
+    "traits": []
+  },
+  {
+    "ancestryName": "Elf",
+    "ancestryDescription": "Elves are a tall, long-lived people with a strong tradition of art and magic.",
+    "ancestryHitPoints": 6,
+    "ancestrySize": "medium",
+    "ancestrySpeed": 30,
+    "freeAttributeBoosts": 1,
+    "languages": ["standard", "elven"],
+    "features": ["Low Light Vision"],
+    "abilities": [
+      {
+        "ability": "Dexterity",
+        "type": "boost"
+      },
+      {
+        "ability": "Intelligence",
+        "type": "boost"
+      },
+      {
+        "ability": "Constitution",
+        "type": "flaw"
+      }
+    ],
+    "traits": []
+  },
+  {
+    "ancestryName": "Catfolk",
+    "ancestryDescription": "Curious and gregarious wanderers, catfolk combine features of felines and humanoids in both appearance and temperament. They enjoy learning new things, collecting new tales and trinkets, and ensuring their loved ones are safe and happy. Catfolk view themselves as chosen guardians of natural places in the world and are often recklessly brave, even in the face of overwhelming opposition.",
+    "ancestryHitPoints": 8,
+    "ancestrySize": "medium",
+    "ancestrySpeed": 25,
+    "freeAttributeBoosts": 1,
+    "languages": ["standard", "amurrun"],
+    "features": ["Low Light Vision", "Land on your feet"],
+    "abilities": [
+      {
+        "ability": "Dexterity",
+        "type": "boost"
+      },
+      {
+        "ability": "Charisma",
+        "type": "boost"
+      },
+      {
+        "ability": "Wisdom",
+        "type": "flaw"
+      }
+    ],
+    "traits": []
+  },
+  {
+    "ancestryName": "Ratfolk",
+    "ancestryDescription": "Ysoki are beings that most surface-dwelling humanoids refer to as 'ratfolk.' They are a communal people who prefer cramped conditions, with up to 100 individuals living in a given home. If they can’t find homes in town, ratfolk may instead live in caves and cavern complexes, as these provide great storage for the many and varied goods they bring back from trading expeditions.",
+    "ancestryHitPoints": 6,
+    "ancestrySize": "small",
+    "ancestrySpeed": 25,
+    "freeAttributeBoosts": 1,
+    "languages": ["standard", "ysoki"],
+    "features": ["Low Light Vision", "Sharp Teeth"],
+    "abilities": [
+      {
+        "ability": "Dexterity",
+        "type": "boost"
+      },
+      {
+        "ability": "Intelligence",
+        "type": "boost"
+      },
+      {
+        "ability": "Strength",
+        "type": "flaw"
+      }
+    ],
+    "traits": []
+  },
+  {
+    "ancestryName": "Minotaur",
+    "ancestryDescription": "Minotaurs stalk complex passageways, whether natural or artificial, and are masters of stone architecture. Inquisitive and steadfast, these bovine humanoids spend their lives perfecting the pursuit that calls to them, which can sometimes lead them far from the enclaves where they were raised. Minotaurs have spread far and wide, forming close-knit communities often near mountains or beneath the surface of the earth. Though sometimes mistaken for simple brutes, minotaurs have scholars and warriors alike. Those who can look past their appearance will find an affinity for building and navigation, as well as creative problem-solving.",
+    "ancestryHitPoints": 10,
+    "ancestrySize": "large",
+    "ancestrySpeed": 25,
+    "freeAttributeBoosts": 1,
+    "languages": ["standard", "jotun"],
+    "features": ["Darkvision", "Horns"],
+    "abilities": [
+      {
+        "ability": "Strength",
+        "type": "boost"
+      },
+      {
+        "ability": "Constitution",
+        "type": "boost"
+      },
+      {
+        "ability": "Charisma",
+        "type": "flaw"
+      }
+    ],
+    "traits": []
+  }
+]

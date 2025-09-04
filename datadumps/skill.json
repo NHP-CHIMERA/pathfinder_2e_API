@@ -1,0 +1,26 @@
+[
+  {
+    "skillName": "Athletics",
+    "ability": "Strength"
+  },
+  {
+    "skillName": "Stealth",
+    "ability": "Dexterity"
+  },
+  {
+    "skillName": "Theivery",
+    "ability": "Dexterity"
+  },
+  {
+    "skillName": "Crafting",
+    "ability": "Intelligence"
+  },
+  {
+    "skillName": "Nature",
+    "ability": "Wisdom"
+  },
+  {
+    "skillName": "Diplomacy",
+    "ability": "Charisma"
+  }
+]
