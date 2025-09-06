@@ -1,5 +1,3 @@
-const { STRING } = require("sequelize");
-
 /**
  * @param {import('sequelize').Sequelize} sequelize
  * @param {import('sequelize').DataTypes} DataTypes
@@ -19,7 +17,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       ancestrySize: {
         type: DataTypes.ENUM,
-        values: ["tiny", "small", "medium", "large"],
+        values: ["Tiny", "Small", "Medium", "Large"],
       },
       ancestrySpeed: {
         type: DataTypes.INTEGER,
