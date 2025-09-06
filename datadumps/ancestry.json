@@ -3,112 +3,173 @@
     "ancestryName": "Human",
     "ancestryDescription": "Humans are diverse and adaptable people with wide potential and deep ambitions.",
     "ancestryHitPoints": 8,
-    "ancestrySize": "medium",
+    "ancestrySize": "Medium",
     "ancestrySpeed": 25,
     "freeAttributeBoosts": 2,
-    "languages": ["standard"],
+    "languages": ["Standard"],
     "features": [],
     "abilities": [],
-    "traits": []
+    "traits": [
+      {
+        "traitName": "Human",
+        "traitDescription": "A creature with this trait is a member of the human ancestry. Humans are a diverse array of people known for their adaptability. An ability with this trait can be used or selected only by humans."
+      },
+      {
+        "traitName": "Humanoid",
+        "traitDescription": "Humanoid creatures reason and act much like humans. They typically stand upright and have two arms and two legs."
+      }
+    ]
   },
   {
     "ancestryName": "Elf",
     "ancestryDescription": "Elves are a tall, long-lived people with a strong tradition of art and magic.",
     "ancestryHitPoints": 6,
-    "ancestrySize": "medium",
+    "ancestrySize": "Medium",
     "ancestrySpeed": 30,
     "freeAttributeBoosts": 1,
-    "languages": ["standard", "elven"],
+    "languages": ["Standard", "elven"],
     "features": ["Low Light Vision"],
     "abilities": [
       {
         "ability": "Dexterity",
-        "type": "boost"
+        "type": "Boost"
       },
       {
         "ability": "Intelligence",
-        "type": "boost"
+        "type": "Boost"
       },
       {
         "ability": "Constitution",
-        "type": "flaw"
+        "type": "Flaw"
       }
     ],
-    "traits": []
+    "traits": [
+      {
+        "traitName": "Elf",
+        "traitDescription": "A creature with this trait is a member of the elf ancestry. Elves are mysterious people with rich traditions of magic and scholarship who typically have low-light vision. An ability with this trait can be used or selected only by elves. A weapon with this trait is created and used by elves."
+      },
+      {
+        "traitName": "Humanoid",
+        "traitDescription": "Humanoid creatures reason and act much like humans. They typically stand upright and have two arms and two legs."
+      }
+    ]
   },
   {
     "ancestryName": "Catfolk",
     "ancestryDescription": "Curious and gregarious wanderers, catfolk combine features of felines and humanoids in both appearance and temperament. They enjoy learning new things, collecting new tales and trinkets, and ensuring their loved ones are safe and happy. Catfolk view themselves as chosen guardians of natural places in the world and are often recklessly brave, even in the face of overwhelming opposition.",
     "ancestryHitPoints": 8,
-    "ancestrySize": "medium",
+    "ancestrySize": "Medium",
     "ancestrySpeed": 25,
     "freeAttributeBoosts": 1,
-    "languages": ["standard", "amurrun"],
+    "languages": ["Standard", "amurrun"],
     "features": ["Low Light Vision", "Land on your feet"],
     "abilities": [
       {
         "ability": "Dexterity",
-        "type": "boost"
+        "type": "Boost"
       },
       {
         "ability": "Charisma",
-        "type": "boost"
+        "type": "Boost"
       },
       {
         "ability": "Wisdom",
-        "type": "flaw"
+        "type": "Flaw"
       }
     ],
-    "traits": []
+    "traits": [
+      {
+        "traitName": "Catfolk",
+        "traitDescription": "A creature with this trait is a member of the catfolk ancestry. Catfolk are humanoids with feline features. An ability with this trait can be used or selected only by catfolk. An item with this trait is created and used by catfolk."
+      },
+      {
+        "traitName": "Humanoid",
+        "traitDescription": "Humanoid creatures reason and act much like humans. They typically stand upright and have two arms and two legs."
+      },
+      {
+        "traitName": "Uncommon",
+        "traitDescription": "Something of uncommon rarity requires special training or comes from a particular culture or part of the world. Some character choices give access to uncommon options, and the GM can choose to allow access for anyone. Less is known about uncommon creatures than common creatures. They typically can't be summoned. The DC of Recall Knowledge checks related to these creature is increased by 2."
+      }
+    ]
   },
   {
     "ancestryName": "Ratfolk",
     "ancestryDescription": "Ysoki are beings that most surface-dwelling humanoids refer to as 'ratfolk.' They are a communal people who prefer cramped conditions, with up to 100 individuals living in a given home. If they can’t find homes in town, ratfolk may instead live in caves and cavern complexes, as these provide great storage for the many and varied goods they bring back from trading expeditions.",
     "ancestryHitPoints": 6,
-    "ancestrySize": "small",
+    "ancestrySize": "Small",
     "ancestrySpeed": 25,
     "freeAttributeBoosts": 1,
-    "languages": ["standard", "ysoki"],
+    "languages": ["Standard", "ysoki"],
     "features": ["Low Light Vision", "Sharp Teeth"],
     "abilities": [
       {
         "ability": "Dexterity",
-        "type": "boost"
+        "type": "Boost"
       },
       {
         "ability": "Intelligence",
-        "type": "boost"
+        "type": "Boost"
       },
       {
         "ability": "Strength",
-        "type": "flaw"
+        "type": "Flaw"
       }
     ],
-    "traits": []
+    "traits": [
+      {
+        "traitName": "Ratfolk",
+        "traitDescription": "A creature with this trait is a member of the ratfolk ancestry. Ratfolk are humanoids who resemble rats. An ability with this trait can be used or selected only by ratfolk."
+      },
+      {
+        "traitName": "Humanoid",
+        "traitDescription": "Humanoid creatures reason and act much like humans. They typically stand upright and have two arms and two legs."
+      },
+      {
+        "traitName": "Uncommon",
+        "traitDescription": "Something of uncommon rarity requires special training or comes from a particular culture or part of the world. Some character choices give access to uncommon options, and the GM can choose to allow access for anyone. Less is known about uncommon creatures than common creatures. They typically can't be summoned. The DC of Recall Knowledge checks related to these creature is increased by 2."
+      }
+    ]
   },
   {
     "ancestryName": "Minotaur",
     "ancestryDescription": "Minotaurs stalk complex passageways, whether natural or artificial, and are masters of stone architecture. Inquisitive and steadfast, these bovine humanoids spend their lives perfecting the pursuit that calls to them, which can sometimes lead them far from the enclaves where they were raised. Minotaurs have spread far and wide, forming close-knit communities often near mountains or beneath the surface of the earth. Though sometimes mistaken for simple brutes, minotaurs have scholars and warriors alike. Those who can look past their appearance will find an affinity for building and navigation, as well as creative problem-solving.",
     "ancestryHitPoints": 10,
-    "ancestrySize": "large",
+    "ancestrySize": "Large",
     "ancestrySpeed": 25,
     "freeAttributeBoosts": 1,
-    "languages": ["standard", "jotun"],
+    "languages": ["Standard", "jotun"],
     "features": ["Darkvision", "Horns"],
     "abilities": [
       {
         "ability": "Strength",
-        "type": "boost"
+        "type": "Boost"
       },
       {
         "ability": "Constitution",
-        "type": "boost"
+        "type": "Boost"
       },
       {
         "ability": "Charisma",
-        "type": "flaw"
+        "type": "Flaw"
       }
     ],
-    "traits": []
+    "traits": [
+      {
+        "traitName": "Minotaur",
+        "traitDescription": "Minotaurs are horned, bovine humanoids with a mastery of mazes and puzzles."
+      },
+      {
+        "traitName": "Beast",
+        "traitDescription": "A creature similar to an animal but with an Intelligence modifier of -3 or higher is usually a beast. Unlike an animal, a beast might be able to speak and reason."
+      },
+      {
+        "traitName": "Humanoid",
+        "traitDescription": "Humanoid creatures reason and act much like humans. They typically stand upright and have two arms and two legs."
+      },
+      {
+        "traitName": "Uncommon",
+        "traitDescription": "Something of uncommon rarity requires special training or comes from a particular culture or part of the world. Some character choices give access to uncommon options, and the GM can choose to allow access for anyone. Less is known about uncommon creatures than common creatures. They typically can't be summoned. The DC of Recall Knowledge checks related to these creature is increased by 2."
+      }
+    ]
   }
 ]
