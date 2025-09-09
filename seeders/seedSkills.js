@@ -2,14 +2,19 @@
 const skillJSON = require("../datadumps/skill.json");
 const { Skill, Ability } = require("../models");
 const { massLoader } = require("../services/bulkDataHandler");
-const { findEvery } = require("../services/queryHandler");
+const { findEvery, findOne } = require("../services/queryHandler");
 const { AbilityMapper } = require("../utilities/helpers");
 const loadSkills = async (transaction) => {
   const abilityMap = await AbilityMapper.getAbilityMap();
   let skillsData = skillJSON.map((skill) => {
     const loadAbility = abilityMap[skill.ability];
+    // const cond = {
+    //   where: { abilityName: skill.ability },
+    // };
+    // const dbAbility = await findOne(Ability, null, cond);
     return {
       skillName: skill.skillName,
+      ability: skill.ability,
       abilityId: loadAbility,
     };
   });
