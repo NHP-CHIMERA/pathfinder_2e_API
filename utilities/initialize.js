@@ -12,7 +12,7 @@ const initializeDb = async () => {
       await loadAbilities(t);
       await loadSkills(t);
       // await loadTraits(t);
-      await loadAncestries(t);
+      // await loadAncestries(t);
       // await loadHeritages(t);
     });
   } catch (error) {
