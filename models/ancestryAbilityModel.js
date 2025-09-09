@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       primaryKey: true,
     },
     type: {
-      type: DataTypes.ENUM("flaw", "boost"),
+      type: DataTypes.ENUM("Flaw", "Boost"),
       allowNull: false,
     },
   });
