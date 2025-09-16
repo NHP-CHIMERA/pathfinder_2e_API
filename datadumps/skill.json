@@ -1,26 +1,26 @@
 [
   {
     "skillName": "Athletics",
-    "ability": "Strength"
+    "ability": { "abilityName": "Strength" }
   },
   {
     "skillName": "Stealth",
-    "ability": "Dexterity"
+    "ability": { "abilityName": "Dexterity" }
   },
   {
     "skillName": "Theivery",
-    "ability": "Dexterity"
+    "ability": { "abilityName": "Dexterity" }
   },
   {
     "skillName": "Crafting",
-    "ability": "Intelligence"
+    "ability": { "abilityName": "Intelligence" }
   },
   {
     "skillName": "Nature",
-    "ability": "Wisdom"
+    "ability": { "abilityName": "Wisdom" }
   },
   {
     "skillName": "Diplomacy",
-    "ability": "Charisma"
+    "ability": { "abilityName": "Charisma" }
   }
 ]
