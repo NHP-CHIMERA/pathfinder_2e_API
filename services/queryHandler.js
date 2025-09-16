@@ -5,22 +5,28 @@ const util = require("node:util");
  * @async
  * @function findEvery
  * @param {typeof import('sequelize').Model} model
- * @param {Object} attrs - the specific attributes to return
- * @param {Object} conditions - the conditions of the selection
+ * @param {Object} [options]  - the options to modify the selection
+ * @param {Object} [options.attributes]  - the attributes to return from the model
+ * @param {Object} [options.conditions]  - the conditions to apply to the selection
  * @returns {Promise<import('sequelize').Model[]>}
  */
-const findEvery = async (model, attrs, conditions) => {
+const findEvery = async (model, options) => {
   try {
+    const { attributes, conditions } = options;
     const results = await model.findAll({
       where: conditions,
-      attributes: attrs,
+      attributes: attributes,
     });
     return results;
   } catch (error) {
     console.error(
       `Error getting all instances of model: ${
         model.name
-      } when using conditions: ${util.inspect(conditions, {
+      } when using search conditions: ${util.inspect(conditions, {
+        depth: null,
+        colors: true,
+        showHidden: true,
+      })} and calling for attributes: ${util.inspect(attributes, {
         depth: null,
         colors: true,
         showHidden: true,
@@ -32,15 +38,17 @@ const findEvery = async (model, attrs, conditions) => {
  * @async
  * @function findOne
  * @param {typeof import('sequelize').Model} model
- * @param {Object} attrs - the specific attributes to return
- * @param {Object} conditions - the conditions of the selection
+ * @param {Object} options - the options to modify the selection
+ * @param {Object} [options.attributes]  - the attributes to return from the model
+ * @param {Object} [options.conditions]  - the conditions to apply to the selection
  * @returns {Promise<import('sequelize').Model>}
  */
-const findOne = async (model, attrs, conditions) => {
+const findOne = async (model, options) => {
   try {
+    const { attributes, conditions } = options;
     const result = await model.findOne({
       where: conditions,
-      attributes: attrs,
+      attributes: attributes,
     });
     return result;
   } catch (error) {
