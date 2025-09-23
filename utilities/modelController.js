@@ -3,7 +3,7 @@ const { findEvery, findOne } = require("../services/queryHandler");
 class modelController {
   constructor(modelM, transactionT) {
     this.transaction = transactionT;
-    this.model - modelM;
+    this.model = modelM;
   }
 
   async getAll(options) {
